@@ -6,4 +6,4 @@ FROM
 	SpotifyClone.album AS alb 
 WHERE
 	art.artista_id = alb.artista_id 
-	AND art.artista_id = 1;
+	AND art.nome = "Walter Phoenix";
